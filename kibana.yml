@@ -1,0 +1,15 @@
+server.name: kibana
+server.host: "0"
+elasticsearch.hosts: [ "https://es01:9200" ]
+elasticsearch.username: kibana_system
+elasticsearch.password: uBEraHN9LQ1YtpMEkdhR
+elasticsearch.ssl.certificateAuthorities: /usr/share/kibana/config/elasticsearch-ca.pem
+
+server.ssl.certificate: /usr/share/kibana/config/ca.crt
+server.ssl.key: /usr/share/kibana/config/ca.key
+server.ssl.enabled: true
+server.publicBaseUrl: "https://172.21.0.4:5601"
+
+xpack.encryptedSavedObjects.encryptionKey: 09321709cfce6d0f42eab99348dd7511
+xpack.reporting.encryptionKey: 4274c2eb909d46f5f2d9cbb8dc5aea4f
+xpack.security.encryptionKey: 6712242a321af8e8750937f28ac42ffa
